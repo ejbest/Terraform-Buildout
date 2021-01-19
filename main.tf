@@ -12,11 +12,9 @@ module "app" {
   vpc_security_group_ids  = module.vpc.vpc_security_group_ids
 }
 
-
 module "elastic-cache" {
   source          = "./modules/elastic-cache"
 }
-
 
 module "ec2" {
   source          = "./modules/app"
