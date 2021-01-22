@@ -1,5 +1,5 @@
 output "vpc_id" {
-  value = aws_vpc.example.id
+  value = aws_vpc.EJS.id
 }
 
 output "public_subnets" {
@@ -11,5 +11,5 @@ output "private_subnets" {
 }
 
 output "vpc_security_group_ids" {
-  value = aws_security_group.example_sg.id
+  value = aws_security_group.EJS_sg.id
 }

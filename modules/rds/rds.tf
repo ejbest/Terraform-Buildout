@@ -1,5 +1,5 @@
-resource "aws_rds_cluster" "aurora-cluster" {
-  cluster_identifier      = "aurora-cluster"
+resource "aws_rds_cluster" "ejs-aurora-cluster" {
+  cluster_identifier      = "ejs-aurora-cluster"
   engine                  = "aurora-mysql"
   engine_version          = var.engine_version
   availability_zones      = var.azs
