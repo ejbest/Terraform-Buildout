@@ -20,7 +20,6 @@ Redis cluster (elasticache)
 There is hope that you see a sensible directory and file structure that there was some use of mapping cloud assets via AWS API (tags)
 
 Cloudfront CDN was considered but recommend Cloudflare and can implement updating with an available API or Bash Script Below
-
 [https://gist.github.com/Tras2/cba88201b17d765ec065ccbedfb16d9a](https://gist.github.com/Tras2/cba88201b17d765ec065ccbedfb16d9a)
 
 ##### Commnands to run and test
